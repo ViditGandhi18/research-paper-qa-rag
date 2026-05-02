@@ -103,18 +103,6 @@ streamlit run app.py
 - Ask questions and see answers with source citations
 - View evaluation scores per query in real time
 
-## Tech Stack
-
-| Component           | Technology               |
-| Vector Databasese   | ChromaDB, FAISS          |
-| Orchestration       | LangChain LCEL           |
-| Embeddings          | sentence-transformers    |
-| LLM (API)           | OpenAI GPT-3.5 / GPT-4   |
-| Fine-tuned LLM      | TinyLlama + QLoRA / PEFT |
-| Fine-tuning         | PEFT, TRL, bitsandbytes  |
-| Evaluation          | RAGAS, DeepEval          |
-| UI                  | Streamlit                |
-
 ---
 ## Tech Stack
 
