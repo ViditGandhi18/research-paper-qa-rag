@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is self-attention?",
+    "context": "Self-attention, also known as intra-attention, is a mechanism that relates different positions of a single sequence to compute a representation of the sequence.",
+    "answer": "Self-attention is a mechanism that allows each position in a sequence to attend to all other positions, computing weighted relationships to build contextual representations."
+  },
+  {
+    "question": "What is a residual connection?",
+    "context": "Residual connections, introduced in ResNet, add the input of a layer directly to its output (skip connection), allowing gradients to flow more easily during backpropagation.",
+    "answer": "A residual connection adds the input of a layer directly to its output, helping gradients flow during training and enabling much deeper neural networks."
+  },
+  {
+    "question": "What is knowledge distillation?",
+    "context": "Knowledge distillation is a model compression technique where a smaller student model is trained to mimic the outputs (soft labels) of a larger teacher model.",
+    "answer": "Knowledge distillation is a compression technique where a small student model learns from the soft probability outputs of a larger teacher model, achieving near-teacher performance at lower cost."
+  },
+  {
+    "question": "What is positional encoding in transformers?",
+    "context": "Since transformers have no recurrence, positional encodings are added to input embeddings to give the model information about the position of tokens in the sequence.",
+    "answer": "Positional encoding injects information about the order of tokens into transformer input embeddings, since transformers process all positions simultaneously without inherent sequential structure."
+  },
+  {
+    "question": "What is the purpose of layer normalization?",
+    "context": "Layer normalization normalizes the activations across the feature dimension for each sample, stabilizing training and reducing sensitivity to learning rate.",
+    "answer": "Layer normalization stabilizes training by normalizing activations within each sample across the feature dimension, reducing internal covariate shift."
+  }
+]

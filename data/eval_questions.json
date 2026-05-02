@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the transformer architecture?",
+    "ground_truth": "The transformer uses self-attention and feed-forward layers to process sequences in parallel without recurrence."
+  },
+  {
+    "question": "What is BERT's pre-training objective?",
+    "ground_truth": "BERT is pre-trained using masked language modeling and next sentence prediction tasks."
+  },
+  {
+    "question": "How does dropout prevent overfitting?",
+    "ground_truth": "Dropout randomly deactivates neurons during training, reducing co-adaptation and improving generalization."
+  },
+  {
+    "question": "What is the attention mechanism in neural networks?",
+    "ground_truth": "Attention allows models to focus on relevant parts of input by computing weighted sums over input positions."
+  },
+  {
+    "question": "What is the difference between precision and recall?",
+    "ground_truth": "Precision measures the proportion of true positives among all positive predictions. Recall measures the proportion of true positives among all actual positives."
+  }
+]
