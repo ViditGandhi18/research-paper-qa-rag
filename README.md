@@ -21,12 +21,7 @@ research_rag/
 │   └── lora_adapter/        # Saved LoRA weights after training
 ├── evaluation/
 │   └── eval_results.json    # Evaluation outputs
-├── notebooks/
-│   ├── 01_ingestion_demo.ipynb
-│   ├── 02_retrieval_demo.ipynb
-│   └── 03_finetune_demo.ipynb
 ├── requirements.txt
-├── .env.example
 └── README.md
 ```
 
@@ -34,7 +29,7 @@ research_rag/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/ViditGandhi18/research-rag-assistant.git
+git clone https://github.com/ViditGandhi18/research-paper-qa-rag.git
 cd research-rag-assistant
 ```
 
@@ -50,8 +45,8 @@ pip install -r requirements.txt
 ```
 ### 4. Set up environment variables
 ```bash
+# .gitignore
 cp .env.example .env
-# Edit .env and add your API keys
 ```
 
 ### 5. Ingest your research papers
